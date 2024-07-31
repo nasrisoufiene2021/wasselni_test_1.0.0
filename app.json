@@ -1,27 +1,25 @@
 {
   "expo": {
     "name": "wasselni_test_1.0.0",
-    "slug": "wasselni_test_1.0.0",
+    "slug": "wasselni-maps",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
+    "sdkVersion": "51.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyByuUq3psFMs7ruv7LUiVDff5F1IFEwYKQ"
+        }
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyByuUq3psFMs7ruv7LUiVDff5F1IFEwYKQ"
+      }
     }
   }
 }
